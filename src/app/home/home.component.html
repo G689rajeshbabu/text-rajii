@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="lef-section">
+        <img class="imag" src="{{profileImagesUrl}}" width="400px" height="500px">
+    </div>
+    <div class="right-section">
+        <h1 class="hai" *ngFor="let rajiiData of rajesh">{{rajiiData.induction}}</h1>
+        <h1 *ngFor="let rajiiData of rajesh">{{rajiiData.name}}</h1>
+        <h2 *ngFor="let rajiiData of rajesh">{{rajiiData.fatherName}}</h2>
+        <h2 *ngFor="let rajiiData of rajesh">{{rajiiData.montherName}}</h2>
+        <h2 *ngFor="let rajiiData of rajesh">{{rajiiData.details}}</h2>
+    </div>
+</div>
